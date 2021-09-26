@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pool</title>
+    <link rel="stylesheet" href="css/stilo.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Train+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="agrupar">
+    <div>
+        <header id="cabecera">
+            <img id="bola" src="/img/bola8.png" alt="">
+            <div id="textopool">
+                Pool
+            </div>
+        </header>
+        <div id="contenedor-principal">
+            <div id="barra-menu">
+                <nav id="menu">
+                    <ul><a href="#barra-menu">Inicio</a></ul>
+                    <ul><a href="#articulos">Tienda</a></ul>
+                    <ul><a href="#articulo2">Nosotros</a></ul>
+                </nav>
+            </div>
+            <section id="seccion">
+                <section class="section-container">
+                    
+                    <div id="articulos">
+                        <h1>Tienda</h1>
+                    </div>
+                    <div class="container-modulo">
+                        <div style="margin-left: 7%; display: flex; flex-direction: column;">
+                            <article class="box">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <h3>Compra online de artículos de pool</h3>
+                                        </div>
+                                    </div>
+                                   
+                                   
+                                        <div id="art"></div>
+                                       <div id="stockprod">
+                                           <div id="stock"></div>
+                                           <div id="stock2"></div>
+                                           <div id="stock3"></div>
+                                           <div id="stock4"></div>
+
+                                       </div>
+                                        
+                                        <div style="display: flex; justify-content: space-around;">
+                                        <button style="margin-left: -2%;" id="btnBolas">Agregar</button>
+                                        <button style="margin-left: 1%;" id="btnPano">Agregar</button>
+                                        <button id="btnTaco">Agregar</button>
+                                        <button style="margin-right: -2%;" id="btnMesa">Agregar</button>
+                                        
+                                    </div>
+                                    <br>
+                                    
+                                    <div id="contenedorart">   </div>
+                                    <!-- <div id="stock"></div> -->
+                                
+                                </div>     
+                            </article>
+                            <h6>Datos para desarrollo</h6>
+                            <h6>Usuario: user</h6>
+                            <h6>Contraseña: 123</h6>
+                        </div>
+                            <div>
+                            <article class="box2">
+                                <div class="modulo5">
+                                    <h2>Inicie sesión</h2><br>
+                                    
+                                    <div id="columna-container">
+                                        <div id="columna2">
+                                            <form novalidate name="miFormulario" id="miFormulario">
+                                                <input id="campo" type="text" name="nombre" placeholder="Nombre"><br>
+                                                <input id="campo1" type="password" placeholder="Contraseña"><br>
+                                               <button id="boton">Iniciar sesión</button>
+                                               
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="user"></div>
+                                    <h2>Carro de compras</h2>
+                                    
+                                    <table class="table table-striped" style="margin-top: 30px;">
+                                        <tbody>
+                                        <tr>
+                                          <th>Producto</th>
+                                          <th>Precio</th></tr>
+                                        <tr>
+                                          <th><div id="carrito"></div></th>
+                                          <th> <div id="precio"></div></th></tr>
+                                        <tr>
+                                          <th> <div id="carrito2"></div></th>
+                                          <th><div id="precio2"></div></th></tr>
+                                        <tr>
+                                          <th><div id="carrito3"></div></th>
+                                          <th> <div id="precio3"></div></th></tr>
+                                        <tr>
+                                          <th> <div id="carrito4"></div></th>
+                                          <th>  <div id="precio4"></div></th></tr>
+                                        </tbody>
+                                        <table id="tablaprecios" class="table table-striped" style="margin-top: 30px;">
+                                    
+                                        </table>
+                                        
+                                        <div id="envio"></div>
+                                        
+                                        
+
+                                    </table>
+                                    <br>
+                                    <div id="totalfinal"></div>
+                                    <br>
+                                      
+                            <button id="btnComprar" value="">Comprar</button>
+                                   
+                                
+                              
+                                <button id="vaciar-carrito" type='button'> Restaurar productos</button>
+                            
+                            </div>
+                            </article>
+                        </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="seccion2">
+                    <h1>Nosotros</h1>
+                    <div id="articulo2">
+                        <div id="contenedor3">
+                            <div id="art4">
+                                <img id="img5" src="/img/mesa.jpg" alt="">
+                                <div id="parrafo">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus unde molestiae
+                                    fugiat
+                                    dolore hic numquam quia quo eos nesciunt. Expedita minima quia odio natus itaque
+                                    rerum
+                                    omnis quidem voluptate fugiat!
+                                </div>
+                            </div>
+                            <div id="columna-container2">
+                                <div id="columna">
+                                    <div id="seccion-uno">
+                                        <video class="medidas" src="/media/bolas1.mp4" loop preload="auto" autoplay
+                                            muted controls;></video>
+                                    </div>
+                                    <audio id="billar" controls preload="auto" src="/media/billar.mp3"></audio>
+                                    <audio preload="auto" src="/media/billar.ogg"></audio>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+            <footer id="pie">
+                <h3 id="derechos"> Derechos reservados 2021</h3>
+            </footer>
+        </div>
+    </div>
+    <script src="./js/sesionUsuarios.js"></script>
+    <script src="./js/interfazInicio.js"></script>
+    <script src="./js/mostrarUsuario.js"></script>
+    <script src="./js/productos.js"></script>
+    
+</body>
+
+</html>
